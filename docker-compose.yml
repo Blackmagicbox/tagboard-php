@@ -1,0 +1,43 @@
+version: '3.6'
+
+services:
+    nginx:
+        image: nginx:alpine
+        ports:
+            - '80:80'
+        links:
+            - phpfpm
+        volumes:
+            - ./nginx/app.conf:/etc/nginx/conf.d/default.conf:ro
+            - ./logs/access.log:/var/logs/nginx/access.log
+            - ./logs/error.log:/var/logs/nginx/error.log
+            - ./public:/tagboard
+
+    phpfpm:
+        image: php:7.3-fpm-alpine
+        expose:
+            - '9000'
+        volumes:
+            - ./public:/tagboard
+    mysql:
+        image: 'mariadb'
+        ports:
+            - '3306:3306'
+        volumes:
+            - ./db-data:/var/lib/mysql
+
+        environment:
+            - MYSQL_ROOT_PASSWORD=senha-de-acesso-desenvolvimento-154
+    phpmadmin:
+        image: 'phpmyadmin/phpmyadmin'
+        restart: always
+        ports:
+            - '8080:80'
+        links:
+            - mysql:mysql
+        environment:
+            MYSQL_USERNAME: root
+            MYSQL_ROOT_PASSWORD: senha-de-acesso-desenvolvimento-154
+            PMA_HOST: mysql
+
+
