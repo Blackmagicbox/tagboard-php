@@ -1,1 +1,1 @@
-touch -p /logs/{error, access}.log
+touch  logs/{error,access}.log
