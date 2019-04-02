@@ -1,0 +1,217 @@
+body{
+    background-color: #f5f5f5;
+}
+
+.main-app {
+    width: 100vw;
+}
+
+.main-app {
+    &.shout-theme {
+        header {
+            &.main-header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+                z-index: 4;
+
+                .main-header-wrapper {
+                    padding: 28px 0;
+                    width: 100%;
+                    height: 100%;
+                    max-width: 1024px;
+                    margin: auto;
+
+                    nav,
+                    div {
+                        display: inline-block;
+                        height: 100%;
+                        line-height: 43px;
+                    }
+
+                    nav {
+                        text-align: center;
+
+                        ul {
+                            &.main-nav {
+                                list-style-type: none;
+                                padding: 0;
+                                margin: 0;
+                                text-indent: 0;
+
+                                li {
+                                    cursor: pointer;
+                                    display: inline-block;
+
+                                    &.nav-item {
+                                        width: 61px;
+                                        height: 29px;
+                                        font-size: 26px;
+                                        margin-right: 32px;
+
+                                        &.shout-theme {
+                                            font-family: viato, Tahoma, sans-serif;
+                                            font-weight: bold;
+                                            font-style: normal;
+                                            font-stretch: normal;
+                                            line-height: 43px;
+                                            letter-spacing: normal;
+                                            text-align: left;
+                                            color: #3300ba;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    div {
+                        &.login-area {
+                            text-align: right;
+
+                            div {
+                                &.login-btn {
+                                    cursor: pointer;
+                                    display: inline-block;
+                                    color: #ffffff;
+                                    text-align: center;
+                                    font-family: viato, Tahoma, sans-serif;
+                                    font-size: 18px;
+
+                                    &.shout-theme {
+                                        width: 122px;
+                                        height: 40px;
+                                        line-height: 40px;
+                                        border-radius: 6px;
+                                        background-color: #4600ff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.shout-theme {
+                background-color: white;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            }
+        }
+    }
+    section {
+        &.main-container {
+            position: relative;
+            width: 100%;
+            margin-top: 100px;
+
+            div{
+                &.shout-box {
+                    width: 682px;
+                    height: 100%;
+                    margin: auto;
+
+                    div {
+                        &.shout-box-heading {
+                            display: block;
+                            height: 80px;
+                            margin-top: 0;
+                            margin-bottom: 20px;
+                            border-bottom: 1px solid #000000;
+
+                            h2 {
+                                &.shout-box-heading-title {
+                                    padding-top: 28px;
+                                    font-family: viato, Tahoma, sans-serif;
+                                    font-size: 32px;
+                                    color: #000;
+                                }
+                            }
+                        }
+
+                        &.shout-box-item {
+                            display: flex;
+                            height: 232px;
+                            margin-top: 20px;
+                            padding: 0;
+                            border-bottom: 1px solid rgba(0,0,0,0.3);
+
+                            .avatar-container {
+                                .avatar {
+                                    width: 97px;
+                                    height: 97px;
+                                    margin: 53px 30px;
+                                    -webkit-border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    border-radius: 50%;
+                                    background-color: #3300ba;
+                                }
+                            }
+
+                            .message-container{
+                                width: 156px;
+
+                                .message-author {
+                                    width: 144px;
+                                    font-size: 22px;
+                                    text-align: left;
+                                    margin-left: 20px;
+
+                                    span {
+                                        height: 24px;
+                                        font-family: viato, Tahoma, sans-serif;
+                                        font-weight: bold;
+                                        color: #3300ba;
+                                    }
+                                }
+
+                                .message-box {
+                                    width: 453px;
+                                    height: 126px;
+                                    margin-top: 8px;
+                                    padding: 20px;
+                                    color: #f5f5f5;
+                                    text-align: left;
+                                    border-radius: 18px;
+                                    background-color: #4600ff;
+
+                                    .message {
+                                        font-family: viato, Tahoma, sans-serif;
+                                        font-size: 23px;
+                                        font-weight: normal;
+                                        font-style: normal;
+                                        font-stretch: normal;
+                                        line-height: 1.13;
+                                        letter-spacing: normal;
+                                        text-align: left;
+
+                                    }
+                                }
+
+                                .time-stamp {
+                                    width: 453px;
+                                    margin-top: 6.5px;
+                                    text-align: right;
+
+                                    span.date {
+                                        margin-right: 20px;
+                                        width: 101px;
+                                        height: 18px;
+                                        color: #3300ba;
+                                        font-family: viato, Tahoma, sans-serif;
+                                        font-size: 16px;
+                                        font-weight: normal;
+                                        font-style: normal;
+                                        font-stretch: normal;
+                                        line-height: 1.56;
+                                        letter-spacing: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

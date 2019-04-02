@@ -1,2 +1,7 @@
 # InteliJ project config
 .idea
+
+# Ignores logs from nginx.
+
+# Sass cache
+sass/.sass-cache

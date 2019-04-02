@@ -1,8 +1,0 @@
-172.18.0.1 - - [28/Mar/2019:00:41:43 +0000] "GET / HTTP/1.1" 200 5 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:41:43 +0000] "GET /favicon.ico HTTP/1.1" 404 556 "http://tagboard-php.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:43:53 +0000] "GET / HTTP/1.1" 200 86340 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:43:53 +0000] "GET /favicon.ico HTTP/1.1" 404 556 "http://tagboard-php.local/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:44:17 +0000] "GET /phpmyAdmin HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:44:25 +0000] "GET /phpmyadmin HTTP/1.1" 404 556 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:44:30 +0000] "GET /phpmyadmin.php HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
-172.18.0.1 - - [28/Mar/2019:00:44:35 +0000] "GET / HTTP/1.1" 200 86008 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"

@@ -1,0 +1,1 @@
+touch -p /logs/{error, access}.log
