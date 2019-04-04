@@ -83,6 +83,10 @@ body {
         font-family: viato, Tahoma, sans-serif;
         font-size: 32px;
         color: #000; }
+      .main-app section.main-container div.shout-box div.shout-box-heading .shout-box-heading-input-group {
+        display: inline-block;
+        float: right;
+        width: 470px; }
     .main-app section.main-container div.shout-box div.shout-box-item {
       display: flex;
       height: 232px;

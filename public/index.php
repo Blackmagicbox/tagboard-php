@@ -39,6 +39,18 @@
                     <h2 class="shout-box-heading-title shout-theme">
                         Latest Messages
                     </h2>
+                    <div id="input" class="shout-box-heading-input-group">
+                        <form method="post" action="process.php">
+                            <label for="user">User</label>
+                            <input id="name" type="text" name="user" placeholder="Enter your name!" />
+
+                            <label for="message">Message</label>
+                            <input id="message" type="text" name="message" placeholder="Say something!!" />
+
+                            <input type="submit" name="submit" value="You said what?">
+
+                        </form>
+                    </div>
                 </div>
                 <div class="shout-box-item shout-theme col-md-12">
                     <div class="avatar-container">
