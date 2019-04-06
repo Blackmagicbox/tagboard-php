@@ -28,16 +28,5 @@ services:
 
         environment:
             - MYSQL_ROOT_PASSWORD=senha-de-acesso-desenvolvimento-154
-    phpmadmin:
-        image: 'phpmyadmin/phpmyadmin'
-        restart: always
-        ports:
-            - '8080:80'
-        links:
-            - mysql:mysql
-        environment:
-            MYSQL_USERNAME: root
-            MYSQL_ROOT_PASSWORD: senha-de-acesso-desenvolvimento-154
-            PMA_HOST: mysql
 
 
